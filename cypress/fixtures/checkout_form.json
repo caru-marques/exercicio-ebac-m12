@@ -1,0 +1,12 @@
+{
+    "firstName": "John",
+    "lastName": "Doe",
+    "country": "Brasil{enter}",
+    "street": "Rua dos Bobos, 0",
+    "complement": "0",
+    "city": "São Paulo",
+    "state": "São Paulo{enter}",
+    "zipCode": "00000-000",
+    "phone": "11999999999",
+    "email": "aluno_ebac@teste.com"
+}
