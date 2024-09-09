@@ -47,5 +47,8 @@ context('Exercicio - Testes End-to-end - Fluxo de pedido', () => {
     page.goToCheckout()
 
     page.fillFormCheckout(form.firstName, form.lastName, form.country, form.street, form.complement, form.city, form.state, form.zipCode, form.phone, form.email)
+
+    cy.url({ timeout: 20000 }).should('include', 'order-received')
+    cy.get('.woocommerce-notice').should('contain', 'Obrigado. Seu pedido foi recebido.')
   });
 })
